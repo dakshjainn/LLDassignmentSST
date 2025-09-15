@@ -7,4 +7,8 @@ public class Cappuccino extends Beverage{
 		return 10;
 	}
 
+	@Override
+	public String getDescription() {
+		return "Cappuccino";
+	}
 }
